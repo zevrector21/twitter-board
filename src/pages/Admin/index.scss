@@ -1,0 +1,91 @@
+.admin-layout {
+	header {
+		padding: 0px !important;
+		ul {
+			font-size: 17px;
+		}
+	}
+	.auth-form {
+		width: 24rem;
+		margin: auto;
+	}
+	.auth-btn {
+		color: #ffffffa6;
+    padding: 0 20px;
+    cursor: pointer;
+		font-size: 17px;
+	}
+	.admin-page {
+		th, td {
+			padding: 8px !important;
+			word-break: break-word;
+			color: #05152D !important;
+			font-family: Proxima-Nova-Regular !important;
+			font-size: 16px;
+		}
+		.detail-icon {
+			font-size: 16px;
+			cursor: pointer;
+      &:hover {
+        color: #124698;
+      }
+		}
+	}
+	.primary-btn {
+    border: none;
+    border-radius: 0.75rem;
+    color: #ffffff;
+    font-family: Proxima-Nova-Bold;
+    font-weight: 500;
+    margin: 20px auto;
+    min-height: 46px;
+    background: #124698;
+    font-size: 16px;
+    z-index: 10;
+    width: 100%;
+
+    &.white-btn {
+    	background: #ffffff;
+    	color: #124698;
+    	border: 1px solid #124698;
+    }
+
+    &.red-btn {
+			background: #ffffff;
+			color: #d64f4f;
+			border: 1px solid #d64f4f;
+
+			&:hover {
+				color: #7f0909 !important;
+				border-color: #7f0909 !important;
+			}
+    }
+  }
+  .wizard-form .form-content {
+		min-height: auto;
+		.ant-form-item {
+			margin-bottom: 1rem;
+		}
+
+		label,
+		.ant-form-item-label {
+			font-size: 16px !important;
+			padding-bottom: 3px !important;
+		}
+
+		.ant-form-item input,
+		.ant-select .ant-select-selector {
+			background: #ffffff !important;
+		}
+		.primary-btn {
+			margin-bottom: 20px;
+		}
+		.ant-upload span {
+			font-size: 16px;
+		}
+	}
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+	background-color: #124698 !important;
+}
